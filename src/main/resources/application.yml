@@ -1,3 +1,8 @@
 spring:
+  profiles:
+    active: dev
   application:
     name: fly-ci-cd-1
+logging:
+  level:
+    com.back: DEBUG
